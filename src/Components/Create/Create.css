@@ -1,0 +1,54 @@
+/* Create.css */
+#create {
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #title {
+    cursor: pointer;
+  }
+  
+  #title input {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  #content {
+    
+    margin-top: 10px;
+  }
+  
+  #content input {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    outline: none;
+  }
+  
+  #content div {
+    display: flex;
+    align-items: center;
+  }
+  
+  #content div ColorLens {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  #content div span {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #2196F3;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
